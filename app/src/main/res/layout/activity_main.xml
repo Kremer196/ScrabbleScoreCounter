@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/darkGreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scrabble"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/MainActivityTitle"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score counter"
+        android:layout_below="@id/MainActivityTitle"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:fontFamily="serif-monospace"
+        android:id="@+id/MainActivitySubtitle"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainActivitySubtitle"
+        android:layout_marginTop="40dp"
+        android:id="@+id/MainPlayer1"
+        android:hint="Enter player 1 name:"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/yellow"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainPlayer1"
+        android:layout_marginTop="35dp"
+        android:id="@+id/MainPlayer2"
+        android:hint="Enter player 2 name:"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/yellow"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainPlayer2"
+        android:layout_marginTop="35dp"
+        android:id="@+id/MainPlayer3"
+        android:hint="Enter player 3 name:"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/yellow"
+        android:inputType="text"
+        android:visibility="invisible"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainPlayer3"
+        android:layout_marginTop="35dp"
+        android:id="@+id/MainPlayer4"
+        android:hint="Enter player 4 name:"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textColorHint="@color/yellow"
+        android:inputType="text"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MainPlayer4"
+        android:layout_marginTop="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:text="New player"
+        android:textSize="20sp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/MainNewPlayerBtn"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MainStartGameBtn"
+        android:layout_below="@id/MainNewPlayerBtn"
+        android:layout_centerHorizontal="true"
+        android:text="Start game"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/yellow"
+        android:textSize="25dp"
+        android:textColor="@color/darkGreen"
+        android:layout_marginBottom="10dp"
+        />
+
+
+
+
+
+</RelativeLayout>

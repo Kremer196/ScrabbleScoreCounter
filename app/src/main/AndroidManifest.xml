@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.scrabblescorecounter">
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/scrabble"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/scrabble"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ScrabbleScoreCounter">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Player1"></activity>
+        <activity android:name=".Player2"></activity>
+        <activity android:name=".Player3"></activity>
+        <activity android:name=".Player4"></activity>
+        <activity android:name=".Player1Words"></activity>
+        <activity android:name=".Player2Words"></activity>
+        <activity android:name=".Player3Words"></activity>
+        <activity android:name=".Player4Words"></activity>
+        <activity android:name=".EndGameActivity"></activity>
+        <activity android:name=".SelectOrderActivity"></activity>
+    </application>
+
+</manifest>

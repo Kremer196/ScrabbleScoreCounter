@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "49613609093",
+    "project_id": "scrabblescorecounter",
+    "storage_bucket": "scrabblescorecounter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49613609093:android:543dd96e62392ccd5f31ec",
+        "android_client_info": {
+          "package_name": "com.example.scrabblescorecounter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49613609093-kmlto36oafqio12l094n5d53fvutnfe5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1MsoONNXdrsUw6LK6EIrUEXXAHmK4m80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49613609093-kmlto36oafqio12l094n5d53fvutnfe5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

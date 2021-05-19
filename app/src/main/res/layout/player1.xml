@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGreen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:id="@+id/Player1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DoubleLetterPlayer1"
+        android:layout_below="@id/Player1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/doubleLetter"
+        android:text="Double letter"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TripleLetterPlayer1"
+        android:layout_below="@+id/DoubleLetterPlayer1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/tripleLetter"
+        android:textColor="@color/black"
+        android:text="Triple letter"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/DoubleLetterPlayer1"
+        android:layout_below="@id/Player1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"
+        android:text="Double word"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/doubleWord"
+        android:id="@+id/DoubleWordPlayer1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DoubleWordPlayer1"
+        android:layout_toRightOf="@id/TripleLetterPlayer1"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="10dp"
+        android:text="Triple Word"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/tripleWord"
+        android:id="@+id/TripleWordPlayer1"
+        />
+
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TripleLetterPlayer1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="a"
+        android:textSize="15dp"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        android:id="@+id/letterAp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TripleLetterPlayer1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/letterAp1"
+        android:text="b"
+        android:textSize="15dp"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        android:id="@+id/letterBp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TripleLetterPlayer1"
+        android:layout_toRightOf="@id/letterBp1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="c"
+        android:textSize="15dp"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        android:id="@+id/letterCp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TripleLetterPlayer1"
+        android:layout_toRightOf="@id/letterCp1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="d"
+        android:textSize="15dp"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        android:id="@+id/letterDp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TripleLetterPlayer1"
+        android:layout_toRightOf="@id/letterDp1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="e"
+        android:textSize="15dp"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        android:id="@+id/letterEp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/TripleLetterPlayer1"
+        android:layout_toRightOf="@id/letterEp1"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:text="f"
+        android:textSize="15dp"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:textAllCaps="false"
+        android:id="@+id/letterFp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterAp1"
+        android:layout_marginLeft="25dp"
+        android:text="g"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterGp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterBp1"
+        android:layout_marginLeft="10dp"
+        android:text="h"
+        android:layout_toRightOf="@id/letterGp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterHp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterCp1"
+        android:layout_marginLeft="10dp"
+        android:text="i"
+        android:layout_toRightOf="@id/letterHp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterIp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterDp1"
+        android:layout_marginLeft="10dp"
+        android:text="j"
+        android:layout_toRightOf="@id/letterIp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterJp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterEp1"
+        android:layout_marginLeft="10dp"
+        android:text="k"
+        android:layout_toRightOf="@id/letterJp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterKp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterAp1"
+        android:layout_marginLeft="10dp"
+        android:text="l"
+        android:layout_toRightOf="@id/letterKp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterLp1"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterGp1"
+        android:layout_marginLeft="25dp"
+        android:text="m"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterMp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterHp1"
+        android:layout_marginLeft="10dp"
+        android:text="n"
+        android:layout_toRightOf="@id/letterMp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterNp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterIp1"
+        android:layout_marginLeft="10dp"
+        android:text="o"
+        android:layout_toRightOf="@id/letterNp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterOp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterJp1"
+        android:layout_marginLeft="10dp"
+        android:text="p"
+        android:layout_toRightOf="@id/letterOp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterPp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterKp1"
+        android:layout_marginLeft="10dp"
+        android:text="r"
+        android:layout_toRightOf="@id/letterPp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterRp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterLp1"
+        android:layout_marginLeft="10dp"
+        android:text="s"
+        android:layout_toRightOf="@id/letterRp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterSp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterMp1"
+        android:layout_marginLeft="25dp"
+        android:text="t"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterTp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterNp1"
+        android:layout_marginLeft="10dp"
+        android:text="u"
+        android:layout_toRightOf="@id/letterTp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterUp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterOp1"
+        android:layout_marginLeft="10dp"
+        android:text="v"
+        android:layout_toRightOf="@id/letterUp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterVp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterPp1"
+        android:layout_marginLeft="10dp"
+        android:text="z"
+        android:layout_toRightOf="@id/letterVp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterZp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterRp1"
+        android:layout_marginLeft="10dp"
+        android:text="ž"
+        android:layout_toRightOf="@id/letterZp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterŽp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterSp1"
+        android:layout_marginLeft="10dp"
+        android:text="č"
+        android:layout_toRightOf="@id/letterŽp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterČp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterTp1"
+        android:layout_marginLeft="20dp"
+        android:text="ć"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterĆp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterUp1"
+        android:layout_marginLeft="10dp"
+        android:text="đ"
+        android:layout_toRightOf="@id/letterĆp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterĐp1"
+        />
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterVp1"
+        android:layout_marginLeft="10dp"
+        android:text="dž"
+        android:layout_toRightOf="@id/letterĐp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterDŽp1"
+        />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterZp1"
+        android:layout_marginLeft="10dp"
+        android:text="š"
+        android:layout_toRightOf="@id/letterDŽp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterŠp1"
+        />
+
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterŽp1"
+        android:layout_marginLeft="10dp"
+        android:text="lj"
+        android:layout_toRightOf="@id/letterŠp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterLJp1"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/letterČp1"
+        android:layout_marginLeft="10dp"
+        android:text="nj"
+        android:layout_toRightOf="@id/letterLJp1"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="15dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/letterNJp1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/letterĆp1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/Player1Letter"
+        android:text="Points:"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/letterĆp1"
+        android:layout_toRightOf="@+id/Player1Letter"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/Player1UserInputLetter"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1Letter"
+        android:id="@+id/Player1WordText"
+        android:layout_marginTop="20dp"
+        android:text="Word: "
+        android:textColor="@color/yellow"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1Letter"
+        android:layout_toRightOf="@id/Player1WordText"
+        android:id="@+id/UserWordPlayer1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1WordText"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Score: "
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/yellow"
+        android:id="@+id/Player1ScoreText"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserWordPlayer1"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/Player1ScoreText"
+        android:textColor="@color/yellow"
+        android:text="0"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Player1WordScore"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/letterNJp1"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="60dp"
+        android:text="Clear"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:id="@+id/Player1ClearBtn"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1ScoreText"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:text="Calculate"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:id="@+id/Player1Calculate"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1Calculate"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Player2"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:id="@+id/Player2NextBtnp1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1Calculate"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/Player2NextBtnp1"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Player3"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/Player3NextBtnp1"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Player1Calculate"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/Player3NextBtnp1"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/yellow"
+        android:text="Player4"
+        android:textColor="@color/darkGreen"
+        android:id="@+id/Player4NextBtnp1"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Player1Calculate"
+        android:layout_below="@id/Player1ScoreText"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="100dp"
+        android:text="End game"
+        android:textColor="@color/darkGreen"
+        android:backgroundTint="@color/yellow"
+        android:id="@+id/Player1EndGameBtn"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

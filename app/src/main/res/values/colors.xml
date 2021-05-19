@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkGreen">#0F5D02</color>
+    <color name="yellowGreen">#BBDE25</color>
+    <color name="lightGreen">#73E149</color>
+    <color name="tripleWord">#E21616</color>
+    <color name="red">#E21616</color>
+    <color name="doubleWord">#F0C42A</color>
+    <color name="yellow">#F0C42A</color>
+    <color name="doubleLetter">#97D3FF</color>
+    <color name="lightBlue">#97D3FF</color>
+    <color name="tripleLetter">#3476CD</color>
+    <color name="darkBlue">#3476CD</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

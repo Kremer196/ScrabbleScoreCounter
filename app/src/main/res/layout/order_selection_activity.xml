@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkGreen"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="PlayerName1"
+        android:textSize="20dp"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/OrderPlayer1"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="PlayerName2"
+        android:layout_below="@id/OrderPlayer1"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        android:id="@+id/OrderPlayer2"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OrderPlayer2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        android:id="@+id/OrderPlayer3"
+        android:visibility="invisible"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/OrderPlayer3"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/yellow"
+        android:textSize="20dp"
+        android:id="@+id/OrderPlayer4"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/Player1ArrowUp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/OrderPlayer1"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageButton
+        android:id="@+id/Player1ArrowDown"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/Player1ArrowUp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:rotation="180"
+        />
+
+    <ImageButton
+        android:id="@+id/Player2ArrowUp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/OrderPlayer2"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/Player1ArrowUp"
+        />
+
+    <ImageButton
+        android:id="@+id/Player2ArrowDown"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/Player2ArrowUp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/Player1ArrowUp"
+        android:rotation="180"
+        />
+
+    <ImageButton
+        android:id="@+id/Player3ArrowUp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/OrderPlayer3"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/Player2ArrowUp"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/Player3ArrowDown"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/Player3ArrowUp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/Player2ArrowUp"
+        android:visibility="invisible"
+        android:rotation="180"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/Player4ArrowUp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/OrderPlayer4"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/Player3ArrowUp"
+        android:visibility="invisible"
+        />
+
+    <ImageButton
+        android:id="@+id/Player4ArrowDown"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:scaleType="centerCrop"
+        android:background="@color/yellow"
+        android:src="@drawable/up"
+        android:layout_toRightOf="@id/Player4ArrowUp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/Player3ArrowUp"
+        android:visibility="invisible"
+        android:rotation="180"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:layout_below="@id/OrderPlayer4"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/darkGreen"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/OrderActivityContinueBtn"
+        />
+
+
+
+
+
+</RelativeLayout>
